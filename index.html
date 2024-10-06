@@ -1,0 +1,1875 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />  
+    <link rel="stylesheet" href="style.css" />
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+    <!-- Favicon-->
+    <link rel="shortcut icon" href=""/>
+    <title>ESSA,SSGMCE</title>
+
+    <style>
+
+      /* Custom styles */
+      .card {
+      border-radius: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      margin-bottom: 20px;
+      height:320px;
+      width:250px;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .rounded-circle {
+      border: 4px solid #fff;
+      width: 120px; /* Adjust the size of the circular images */
+      height: 120px; /* Adjust the size of the circular images */
+    }
+
+    .mentor-card .rounded-circle {
+      width: 130px; /* Larger size for mentor images */
+      height: 130px; /* Larger size for mentor images */
+    }
+
+    .titiles {
+      color: navy;
+    }
+
+    .row {
+      justify-content: center; /* Center align the cards */
+    }
+  
+      .titiles {
+        color: navy;
+      }
+
+      /* Custom styles for executive cards */
+/* Custom styles for executive cards */
+.exe_card {
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    padding: 10px;
+    height: 100%;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.exe_card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.exe_card .card-body {
+    padding: 10px;
+}
+
+.exe_card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.exe_card .card-title {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.exe_card .insta, .exe_card .linkedin {
+    font-size: 1.2rem;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.exe_card .insta:hover, .exe_card .linkedin:hover {
+    color: #3f729b;
+}
+
+.exe_card .card-body a {
+    margin-right: 5px;
+}
+
+.exe_card .card-body a:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    .exe_card {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+/* External CSS file (styles.css) */
+
+/* Center the table horizontally */
+.table-container {
+    text-align: center; /* Center align the content */
+}
+
+.image-table {
+    margin: 0 auto; /* This will center the table horizontally */
+    border-collapse: collapse;
+    padding: 20px; /* Add padding to the table */
+    width: 80%; /* Set a width for the table */
+}
+
+/* Invisible borders for table cells */
+.image-table td,
+.image-table th {
+    border: none;
+    padding: 10px; /* Add padding to each cell */
+}
+
+/* Add space between image and text */
+.image-table img {
+    max-width: 100px; /* Adjust the maximum width of images */
+    margin-bottom: 10px; /* Add space below the image */
+}
+
+.image-table p {
+    font-size: 16px;
+    color: #333; /* Adjust text color */
+    margin: 0; /* Remove default margin */
+}
+
+  /* External CSS file (styles.css) */
+
+/* Center the table horizontally */
+.image-table {
+    margin: 0 auto; /* This will center the table horizontally */
+    border-collapse: collapse;
+}
+
+/* Invisible borders for table cells */
+.image-table td {
+    border: none;
+}
+
+/* Add styling as needed for images and text */
+.image-table img {
+    max-width: 100px; /* Adjust the maximum width of images */
+}
+
+.image-table p {
+    font-size: 16px;
+    color: #333; /* Adjust text color */
+}
+
+
+/* Invisible table borders */
+.image-table {
+    border-collapse: collapse;
+}
+
+/* Invisible borders for table cells */
+.image-table td {
+    border: none;
+}
+
+/* Add styling as needed for images and text */
+.image-table img {
+    max-width: 300px; /* Adjust the maximum width of images */
+   
+}
+
+.image-table p {
+    font-size: 16px;
+    color: #333; /* Adjust text color */
+}
+
+      .dropdown-submenu .dropdown-menu {
+          margin-top: 0;
+          margin-left: 100%;
+          margin-right: 0;
+      }
+/* Custom CSS to open dropdown on the side where it opens */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  left: 0.5%;
+  top: 0;
+  margin-top: -1px;
+  display: none; /* Hide submenu by default */
+}
+
+.dropdown-submenu:hover .dropdown-menu,
+.dropdown-submenu:focus-within .dropdown-menu {
+  display: block; /* Display submenu when hovering over or focusing within */
+}
+
+  </style>
+  </head>
+  <body>
+    <div class="open">
+			<div class="layer"></div>
+			<div class="layer"></div>
+		</div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top navvv">
+      <div class="container-fluid text-secondary">
+        <a class="navbar-brand" href="#"><img src="ssgmce_logo.png "height=50 class=" ssgmce px-4 me-4" data-aos="zoom-out-up"/></a>
+        <button class="navbar-toggler menu-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-2" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light">
+            <li class="nav-item">
+          </li>
+          <a class="nav-link px-4" aria-current="page" href="#learn"> <span class="iconify" data-icon="fluent:home-person-20-filled" data-inline="false"></span>Home </a>
+            <li class="nav-item">
+          </li>
+          <a class="nav-link px-4" href="#About"><span class="iconify text-secondary" data-icon="carbon:user-speaker" data-inline="true"></span> About </a>
+            <li class="nav-item">
+          </li>
+          <a class="nav-link px-4" href="#Task"><span class="iconify" data-icon="ic:baseline-assignment-turned-in" data-inline="false"></span>Tasks </a>
+            <li class="nav-item">
+          </li>
+          <a class="nav-link px-4" href="#Gallery"><span class="iconify" data-icon="carbon:drop-photo"></span>  Gallery</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle px-4" href="#Team" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="iconify" data-icon="fluent:people-team-28-filled"></span> Team
+            </a>
+            <ul class="dropdown-menu text-secondary" aria-labelledby="navbarDropdown">
+              <li class="dropdown-submenu">
+                <a class="dropdown-item text-secondary dropdown-toggle" href="#M">2023-24</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#M">Mentor</a></li>
+                    <li><a class="dropdown-item" href="#C">Core Team</a></li>
+                    <li><a class="dropdown-item" href="#E">Execution Team</a></li>
+                </ul>
+            </li>
+        
+        
+            <li><hr class="dropdown-divider"></li>
+            <li class="dropdown-submenu">
+              <a class="dropdown-item text-secondary dropdown-toggle" href="#">2022-23</a>
+              <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#teamco">Core Team</a></li>
+                  <li><a class="dropdown-item" href="#teamex">Execution Team</a></li>
+              </ul>
+          </li>
+                <li><hr class="dropdown-divider"></li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item text-secondary dropdown-toggle" href="#M">2021-22</a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#teamcore">Core Team</a></li>
+                  </ul>
+              </li>
+                
+              <li><hr class="dropdown-divider"></li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item text-secondary dropdown-toggle" href="#M">2020-21</a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#team2021">Core Team</a></li>
+                  </ul>
+              </li>
+
+
+          
+                <li><hr class="dropdown-divider"></li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item text-secondary dropdown-toggle" href="#M">2019-20</a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#teamc">Core Team</a></li>
+                      <li><a class="dropdown-item" href="#teame">Executive Team</a></li>
+                  </ul>
+              </li>
+            </ul>
+        </li>
+        
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle px-4" href="#Team" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="iconify" data-icon="fluent:people-team-28-filled"></span> Event
+              </a>
+              <ul class="dropdown-menu text-secondary" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item text-secondary" href="#Event_24">2023-24</a></li>
+                <li><hr class="dropdown-divider "></li>
+                <li><a class="dropdown-item text-secondary" href="#Event_23">2022-23</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-secondary" href="#Event_22">2021-22</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-secondary" href="#Event_21">2020-21</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-secondary" href="#Event_20">2019-20</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-secondary" href="#Event_19">2018-19</a></li>
+              </ul>
+            </li>
+
+
+<!--Script for Sub menu bar -->
+           
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0-alpha/js/bootstrap.bundle.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.dropdown-submenu').on("mouseenter", function(){
+            $(this).find('ul').show();
+        }).on("mouseleave", function(){
+            $(this).find('ul').hide();
+        });
+    });
+</script>
+
+
+<!-- End of Script for Sub menu bar -->
+
+
+
+
+
+
+
+            <li class="nav-item">
+              <a class="nav-link px-4" href="#Event"><span class="iconify" data-icon="ic:round-contact-mail" data-inline="false"></span> Contact </a>
+            </li>
+            <li class="nav-item py-2 ">
+              <a href="https://www.facebook.com/ESSA-SSGMCEshegaon-102488205568162/"><i class="bi bi-facebook face mx-1"></i></a>
+              <a href="https://instagram.com/essa_ssgmce_?utm_medium=copy_link"><i class="bi bi-instagram insta mx-1 px-1"></i></a>
+              <a href="https://www.linkedin.com/company/essa-ssgmce"><i class="bi bi-linkedin  mx-1 px-1"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br/>
+    <br/>
+    <!-- Landing page -->
+    <section id="learn" class="px-5 py-1 m-3">
+      <div class="container py-3" data-aos="fade-up">
+        <div class="">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-4 py-5 pt-5  logo-img"data-aos="ease-out"data-aos="slide-right" >
+            <img src="logo.png" class="img-fluid big_logo " alt="" />
+            <div class="text-center p-2">
+            </div>
+          </div>
+          <div class="col-md-8  p-2"data-aos="slide-left">
+            <div class="essa-name"data-aos="zoom-in-up" >
+           <img src="E.jpeg" Height=150 class="img_name"/>
+           <img src="S1.jpeg" Height=150 class="img_name"/>
+           <img src="S1.jpeg" Height=150 class="img_name"/>
+           <img src="A.jpeg" Height=150 class="img_name"/>
+            </div>
+          
+            <h1 class="lead px-1  py-1" >
+              <b>
+              “ The perfect blend of Logic and Magic. ” 
+            </b>
+            </h1>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section id="About">
+      
+     <h1 class="titiles pt-5 pb-3" data-aos="fade-up"><u> <Strong><span class="iconify" data-icon="carbon:user-speaker" style="color:navy;"></span>About Us</Strong></u></h1>
+      <div class="container-sm px-5"data-aos="slide-left" data-aos="fade-up">
+      <img src="E.jpeg" class="rounded float-start img-fluid col-2 pb-3" alt="..."/>
+      <h1 class="pt-4 sub-title" data-aos="fade-up">
+        Enrich
+      </h1>
+      <p class="px-5 para1" >
+        We enhance the mind with quality knowledge and attributes to flourish a pathway to accomplishments.Associating with new technology is our first and foremost agenda.
+      </p>
+    </div>
+
+    <div class="container-sm px-5 "data-aos="slide-left" data-aos="fade-up">
+      <img src="S1.jpeg" class="rounded float-start img-fluid col-2 pb-5" alt="..."/>
+      <h1 class="pt-4 sub-title"data-aos="fade-up">
+        Spirited
+      </h1>
+      <p class="px-5  para1">
+        Being focused and devotional, we are  determined towards building a positive working atmosphere to cultivate technology and to become a part of better future.
+      </p>
+    </div>
+
+    <div class="container-sm px-4"data-aos="slide-left" data-aos="fade-up">
+      <img src="S1.jpeg" class="rounded float-start img-fluid col-2 pb-5" alt="..."/>
+      <h1 class="pt-4 sub-title" data-aos="fade-up">
+        Sociable
+      </h1>
+      <p class="px-5 para1">
+        Every one here at Essa is efficient, generous and approachable.Connecting with industry and intellectuals and learning from them  makes us scholarly and we progressively share it with the others.
+      </p>
+    </div>
+    <div class="container-sm px-5 pb-5" data-aos="slide-left"data-aos="fade-up">
+      <img src="A.jpeg" class="rounded float-start img-fluid col-2 pb-5" alt="..."/>
+      <h1 class="pt-4 sub-title" data-aos="fade-up">
+        Astonishing 
+      </h1>
+      <p class="px-4 para1">
+        Establishing efforts followed by self-discipline ,we create wonders at Essa.Learning and Implementing is what we believe in and  which motivates us to a better future.
+      </p>
+    </div>
+  </section>
+    </section>
+ <!-- Task -->
+ <section class="container"data-aos="fade-up">
+ <div id="Task" class="container-fluid my-5 body_text123">
+  <h1 class="text-center mb-5 titiles" ><u><strong><span class="iconify" data-icon="ic:baseline-assignment-turned-in" data-inline="false"></span>We do these !</strong></u></h1>
+    <div class="row g-3 col-lg-12 col-md-6 col-sm-12">
+      <div class="col" >
+      <h3><span class="iconify" data-icon="carbon:task-approved" style="color: darkblue;" data-width="35"></span><br>Workshop</h3>
+       <p class="text1 text">Learning something new from peers who have experience <span class="dots1"> ...</span> <span class="moreText1"> 
+      and knowledge to share with being a new bee into the world of professionals.Attend many workshops to stay ahead in the competitions . </span></p>
+<button class="read-more-btn1 read-more-btn" >Read More</button>
+      </div>
+      <div class="col"> <h3><span class="iconify" data-icon="carbon:task-approved" style="color: darkblue;" data-width="35"></span><br>Teaching Skills</h3>
+        <p class="text text2">Effective learning and <span class="dots2"> ...</span> <span class="moreText2">professional development are important for student's achievement hence we impart assistance to learn new and worthy expertise. </span></p>
+       <button class="read-more-btn read-more-btn2">Read More</button>
+      </div>
+      <div class="col"> <h3><span class="iconify" data-icon="carbon:task-approved" style="color: darkblue;" data-width="35"></span><br>
+        Experts Lectures</h3>
+        <p class="text text3">The aim of expert lectures<span class="dots3"> ...</span> <span class="moreText3">is to analyze particular subject collaborating with industry professionals. 
+          These lectures would provide Industry insights. </span></p>
+ <button class="read-more-btn read-more-btn3">Read More</button>
+</div>
+      <div class="col"> <h3><span class="iconify" data-icon="carbon:task-approved" style="color: darkblue;" data-width="35"></span><br>CDES</h3>
+        <p class="text text4">Community Development Cell and Extension Services<span class="dots4"> ...</span> <span class="moreText4">(CDES) is helpfull to strengthen the bonds between the external students and the institute through unbroken interfaces as we share huge feeling 
+          of belongingness, respect and care for the Knowledge Seekers.</span></p>
+   <button class="read-more-btn read-more-btn4">Read More</button>
+</div>
+      <div class="col">
+        <h3><span class="iconify" data-icon="carbon:task-approved" style="color: darkblue;" data-width="35"></span><br>Training session</h3>
+        <p class="text text5">Training Students is vital element<span class="dots5"> ...</span> <span class="moreText5"> to provide them the exposure to learn hands on and practical things so as to implement on projects.
+           
+         </span></p>
+ <button class="read-more-btn read-more-btn5">Read More</button>
+      </div>
+      <div class="col">
+        <h3><span class="iconify" data-icon="carbon:task-approved" style="color: darkblue;" data-width="35"></span><br>Technical event</h3>
+        <p class="text text6"> These events provide us<span class="dots6"> ...</span> <span class="moreText6">  the best technical and scientific  knowledge to build technically sound solutions for the future. </span></p>
+ <button class="read-more-btn read-more-btn6">Read More</button>
+      </div>
+    </div>
+  
+      </div>
+  </div>
+</div>
+</section>
+<!-- Gallery -->
+<section id="Gallery" class="p-5 bg-secondary  ">
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up">
+    <div  class="carousel-inner">
+      <div class="carousel-item active"></div>
+        <img src="grp(2024-25).jpg " class="d-block w-60 img-fluid" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="ga1.jpeg" class="d-block w-60 img-fluid" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="ga2.jpeg" class="d-block w-60 img-fluid" alt="...">
+      </div>
+       <div class="carousel-item">
+        <img src="ga3.jpeg" class="d-block w-60 img-fluid" alt="...">
+      </div> 
+      <div class="carousel-item">
+        <img src="ga4.jpeg" class="d-block w-60 img-fluid " alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="grp1.jpg" class="d-block w-60 img-fluid " alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="grp2.jpg" class="d-block w-60 img-fluid " alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="ws1.jpg" class="d-block w-60 img-fluid " alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="ws2.jpg" class="d-block w-60 img-fluid " alt="...">
+      </div>
+      
+      
+    <button class="carousel-control-prev bg-secondary" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+      <span class="">Previous</span>
+    </button>
+    <button class="carousel-control-next bg-secondary" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="false"></span>
+      <span class="">Next</span>
+    </button>
+  </div>
+</section>
+<!-- Team -->
+<section id="Team" class="p-5 bg-light" data-aos="fade-up">
+  <div class="container bg-light" data-aos="fade-up">
+    <h1 class="titiles pt-5 pb-3"><u> <Strong><span class="iconify" data-icon="fluent:people-team-28-filled"></span>Our Team</Strong></u></h1>
+    <h2 class="text-center  titiles pt-5 pb-3 "data-aos="fade-up"><u><strong><span class="iconify" data-icon="la:chalkboard-teacher" style="color: navy;"></span>Mentors</strong></u></h2>
+ 
+    <div id="M" class="row g-2 text-center Mentors" style="align-content: center;">
+    <div class= "col-lg-4 col-md-6">
+      <div class="card" data-aos="fade-right">
+        <div class="card-body text-center">
+          <img
+            src="HOD.jpeg"
+            class="rounded-circle mb-2 col-12"
+            alt=""
+          />
+          <h4 class="card-title mb-2 "> Dr. M. N. Tibdewal </h4>
+          <h5 class="card-title mb-2"> <strong>HOD,EXTC Dept.</strong> </h5>
+          <h7 class="card-text">
+         
+          </h7>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4  col-md-6">
+      <div class="card" data-aos="fade-left">
+        <div class="card-body text-center">
+          <img
+            src="Thanvi Madam.jpeg"
+            class="rounded-circle mb-3 col-12"
+            alt=""
+          />
+          <h4 class="card-title mb-2 "> Prof. K. S. Vyas(Thanvi)</h4>
+          <h5 class="card-title mb-2"> <strong>Faculty Advisor</strong> </h5>
+          <h7 class="card-text">
+          
+          </h7>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+    <h2 id="C" class="text-center  titiles pt-5 pb-3" data-aos="fade-up"><u><strong><span class="iconify" data-icon="mdi:head-check" style="color: navy;"></span>Core Team</strong></u></h2>
+    <div class="row g-4 core-card"> 
+      <div class="col-md-6 col-lg-3  ">
+        <div class="card "data-aos="fade-up">
+          <div class="card-body text-center  ">
+            <img
+              src="formal ved.png"
+              class="rounded-circle mb-3 col-12"
+              alt="Vedanshu Bhole"
+            />
+            <h3 class="card-title mb-3 "> Mr. Vedanshu Bhole </h3>
+            <p class="card-text">
+              <b>Chairperson</b>
+            </p>
+            <a href="https://www.instagram.com/ved.14_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="bi bi-instagram insta mx-1"></i></a>
+            
+            <a href="https://www.linkedin.com/in/vedanshu-bhole-232a782a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+           <div class="col-md-6 col-lg-3 ">
+        <div class="card "data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="Nehamam.jpg"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h4 class="card-title mb-3">Ms. Neha Bhut </h4>
+            <p class="card-text">
+              <b>Vice Chairperson</b>
+            </p>
+            <a href="https://www.instagram.com/neha_bhut03/?utm_source=ig_web_button_share_sheet"><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.linkedin.com/in/neha-bhut-a9502525b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 ">
+        <div class="card "data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="Yashsir.JPG"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h3 class="card-title mb-3">Mr. Yash Dubey</h3>
+            <p class="card-text">
+              <b>Secretary</b>
+            </p>
+            <a href="https://www.instagram.com/_yash_dubey_0205_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="bi bi-instagram insta mx-1"></i></a>
+           <a href="https://www.linkedin.com/in/yash-dubey-466b4325a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card "data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="Anurag sir.jpg"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h3 class="card-title mb-3">Mr. Anurag Fulmali </h3>
+            <p class="card-text">
+              <b>Technical Head</b>
+            </p>
+            <a href="https://www.instagram.com/_calix_21?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="bi bi-instagram insta mx-1"></i></a>
+            
+            <a href="https://www.linkedin.com/in/anurag-fulmali-996aaa131?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card "data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="mnasimam.png"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h3 class="card-title mb-3">Ms. Mansi Paraskar</h3>
+            <p class="card-text">
+              <b>Publicity Head</b>
+            </p>
+            <a href="https://www.instagram.com/manii_patil02?igsh=OGJ1c3N5b281OWNq"><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.linkedin.com/in/mansi-paraskra-55b607260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+           <div class="col-md-6 col-lg-3 ">
+        <div class="card"data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="ayush sir.jpg"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h4 class="card-title mb-3">Mr. Ayush Thute </h4>
+            <p class="card-text">
+              <b>Creative  Head</b>
+            </p>
+             <a href="https://www.instagram.com/ayyuu.ssshh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="bi bi-instagram insta mx-1"></i></a>
+             
+            <a href="https://www.linkedin.com/in/ayush-thute-0725b5275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="bi bi-linkedin  mx-1"></i></a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 ">
+        <div class="card "data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="Arpitamam.jpg"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h3 class="card-title mb-3">Ms. Arpita Mahalle</h3>
+            <p class="card-text">
+             <b> Creative Head</b>
+            </p>
+            <a href="https://www.instagram.com/arpitamahale24?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.linkedin.com/in/arpita-mahale-1082222ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6 col-lg-3 ">
+        <div class="card "data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="Harshalsir.jpg"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h3 class="card-title mb-3">Mr. Harshal Pal</h3>
+            <b>
+              Program Management Head
+            </b>
+            <p> </p>
+             <a href="https://www.instagram.com/xiv.harshal?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.linkedin.com/in/harshal-pal-257994224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+   <div class="col-md-6 col-lg-3 ">
+        <div class="card "data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="kartik sir.jpg"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h3 class="card-title mb-3"> Mr. Kartik Yeul </h3>
+            <b class="card-text">
+              Resource Management Head
+            </b>
+            <p> </p>
+             <a href="https://www.instagram.com/kartik_0650?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.linkedin.com/in/kartik-yeul-707b12235?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 ">
+        <div class="card"data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="Vedantsir.jpg"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h3 class="card-title mb-3"> Mr. Vedant Mahalle</h3>
+            <b>
+              Treasurer
+            </b>
+            <p>  </p>
+           
+            <a href="https://www.instagram.com/vedaant.8?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.linkedin.com/in/vedant-mahalle-9305b125b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <h2 id="E" class="text-center titiles pt-5 pb-3" data-aos="fade-up"><u><strong><span class="iconify" data-icon="mdi:head-cog" style="color: navy;"></span>Executive Team</strong></u></h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 executive-card">
+     
+     
+      <div class="col-md-5 col-lg-2 ">
+        <div class="exe_card" data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="ayushpimpalkar.jpg"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h6 class="card-title mb-3">Mr. Ayush Pimpalkar
+</h6>         
+             <a href="https://www.instagram.com/pimpalkar.ayush/profilecard/?igsh=ejlhZ3BqaDkzZ3E5"><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.linkedin.com/in/ayush-pimpalkar-b93416241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+"><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 col-lg-2 ">
+        <div class="exe_card"data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="ashutosh.jpg"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h6 class="card-title mb-3">Mr. Ashutosh Nanote 
+</h6>
+            
+           <a href="https://www.instagram.com/__ashu_x.7?igsh=ZWwwZTlqaW15NHJz"><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.linkedin.com/in/ashutosh-nanote-232964291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 col-lg-2 ">
+        <div class="exe_card "data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="Vaishnavi Shejol.jpg"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h5 class="card-title mb-3 mt-3"> Ms. Vaishnavi Sejol</h5>          
+            <a href="https://www.instagram.com/shejol.vaishnavi/?utm_source=ig_web_button_share_sheet
+"><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="
+"><i class="bi bi-linkedin  mx-1"></i></a> 
+          </div>
+        </div>
+      </div>
+   <div class="col-md-5 col-lg-2 ">
+        <div class="exe_card"data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="pranjal.png"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h5 class="card-title mb-2">Ms. Panjal Wagh</h5>  
+            <a href="https://www.instagram.com/pranjalpatil808/"><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.linkedin.com/in/pranjal-wagh-1818852a9"><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+   <div class="col-md-5 col-lg-2 ">
+        <div class="exe_card "data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="Sharayu Ingle.jpg"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h5 class="card-title mb-3">Ms. Sharayu Ingle</h5>
+            <a href="https://www.instagram.com/_sharayuuu__?igsh=Z3Z2MW94d3FvNHJ"><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.linkedin.com/in/sharayu-ingle-1443ba227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+    <div class="col-md-5 col-lg-2">
+        <div class="exe_card "data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="prathmeshmagar.jpg"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h5 class="card-title mb-3">Mr. Prathmesh Magar</h5>
+            
+            <a href="https://www.instagram.com/prathamesh_magar_07?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.linkedin.com/in/prathamesh-magar-9b4229289/"><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 col-lg-2 ">
+        <div class="exe_card"data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="vaibhav.jpg"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h6 class="card-title mb-3">Mr. Vaibhav Chikte</h6>           
+            <a href="https://www.instagram.com/vaibhavchikte18?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.linkedin.com/in/vaibhavchikate23/"><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 col-lg-2 ">
+        <div class="exe_card "data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="shrideep.jpg"
+              class="rounded-circle mb-2 col-12"
+              alt=""
+            />
+            <h6 class="card-title mb-2"> Mr. Shrideep Dhore </h6>
+            
+            <a href="https://www.instagram.com/pheonix.shriee/"><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.linkedin.com/in/shrideep-dhore-a31927289/"><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 col-lg-2 ">
+          <div class="exe_card "data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="Pratik.jpg"
+              class="rounded-circle mb-2 col-12"
+              alt=""
+            />
+            <h6 class="card-title mb-2"> Mr. Pratik Mapari </h6>           
+            <a href="https://www.instagram.com/pratikmapari61/profilecard/?igsh=MXhuZmE5M2YwcjFkZQ=="><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.linkedin.com/in/pratik-mapari-b259aa289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 col-lg-2">
+        <div class="exe_card "data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="Nayan Varma.jpg"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h6 class="card-title mb-3"> Mr. Nayan Varma</h6>          
+            <a href="https://www.instagram.com/mr_nayan_v95?igsh=YWkxczIyMzdkb2Nv"><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.linkedin.com/in/nayan-varma-34434b298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+     <div class="col-md-5 col-lg-2 ">
+        <div class="exe_card "data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="nilesh.jpg"
+              class="rounded-circle mb-2 col-12"
+              alt=""
+            />
+            <h6 class="card-title mb-2">Mr. Nilesh Dhore</h6>  
+            <a href="https://www.instagram.com/nilesh_dhore135?igsh=azFycG8xOXVldGk3"><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.linkedin.com/in/nilesh-dhore-bbb083331"><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 col-lg-2">
+        <div class="exe_card "data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="Pranav.png"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h6 class="card-title mb-3">Mr. Pranav Jadhao </h6>
+          
+            <a href="https://www.instagram.com/p.j_6125?igsh=MWZ1cm45a2ZncGU2Yg=="><i class="bi bi-instagram insta mx-1"></i></a>
+           <a href="https://www.linkedin.com/in/pranav-jadhao-3286aa27a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+ <div class="col-md-5 col-lg-2">
+        <div class="exe_card "data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="roshni.jpg"
+              class="rounded-circle mb-2 col-12"
+              alt=""
+            />
+            <h6 class="card-title mb-2">Ms. Roshani Kukade</h6>           
+            <a href="https://www.instagram.com/roshu_kukade?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.linkedin.com/in/roshani-kukade-428977294/"><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-5 col-lg-2">
+        <div class="exe_card"data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="Gaurav.jpg"
+              class="rounded-circle mb-2 col-12"
+              alt=""
+            />
+            <h6 class="card-title mb-3">Ms. Gaurav Wagadre</h6>           
+            <a href="https://www.linkedin.com/in/gaurav-wagadre-31b314297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.instagram.com/gauravwagadre09?igsh=eXJleHg3ZnZjbmhn"><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 col-lg-2">
+        <div class="exe_card "data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="kartikgorle.jpg"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h5 class="card-title mb-2">Mr. Kartik Gorle</h5>          
+            <a href="https://www.instagram.com/kartik_gorle_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.linkedin.com/in/kartik-gorle-566805299/"><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 col-lg-2">
+        <div class="exe_card"data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="rahul.jpg"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h5 class="card-title mb-3">Mr. Rahul Choudhary
+</h5>
+        
+            <a href="https://www.instagram.com/rahul6799choudhary?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.linkedin.com/in/rahul-c-61089a259/"><i class="bi bi-linkedin  mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 col-lg-2">
+        <div class="exe_card "data-aos="fade-up">
+          <div class="card-body text-center">
+            <img
+              src="Amitesh.JPG"
+              class="rounded-circle mb-3 col-12"
+              alt=""
+            />
+            <h5 class="card-title mb-3"> Mr. Amitesh Chavan</h5> 
+            
+            <a href="https://www.instagram.com/c.amiteshhh?igsh=NWMzbjY3N2N6bXY2"><i class="bi bi-instagram insta mx-1"></i></a>
+            <a href="https://www.linkedin.com/in/amitesh-chawhan-944b762b6"><i class="bi bi-linkedin  mx-1"></i></a>    
+          </div>
+        </div>
+      </div>
+</section>
+
+
+
+
+<!--Events in 2023-24-->
+<div>
+<h2 id="Event_24" class="text-center  titiles pt-5 pb-3 "data-aos="fade-up"><u><strong><span class="iconify" data-icon="mdi:head-cog" style="color: navy;"></span>Events(Session 2023-24)</strong></u></h2> 
+  
+    </div>
+<div>
+
+<table class="image-table">
+  <thead>
+      <tr>
+          <th>Electronics Students and Staff Association's Events</th>
+          <th>Session: 2023-24</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>
+              <img src="e1.jpg" alt="Image 1">
+          </td>
+          <td>
+              <p><b>1.Title</b>: Secret of Canva<br>
+                <b>Date:</b> Sunday 8th October, 2023<br>
+                <b>Time:</b> 9am to 12pm<br>
+                <b>Venue:</b> DSP Lab<br>
+                <b>Total Students:</b> 28 Students<br>
+                <b>Resource Person:</b> Prasad Deshmukh, Niharika Dagaonkar, Shreya Dharmale<br>
+                </p>
+          </td>
+      </tr>
+      <tr>
+          <td>
+              <img src="e2_new.jpg" alt="Image 2">
+          </td>
+          <td>
+              <p><b>2.Title:</b> Arduino Mastery <br>
+                <b>Date:</b> 13th & 14th March,2024<br>
+               <b> Time: </b>4pm to 8pm <br>
+               <b> Venue:</b> Old Auditorium<br>
+                <b>Total Students:</b> 95 Students<br>
+               <b> Resource Person:</b> Prof. Mangesh Bharati and Team<br>
+                </p>
+          </td>
+      </tr>
+      <tr>
+        <td>
+            <img src="e3_new.jpg" alt="Image 2">
+        </td>
+        <td>
+            <p><b>3.Title:</b> Electrofiesta <br>
+             <b> Date:</b> 15th & 16th March, 2024<br>
+             <b> Time: </b>4pm to 6pm,1pm to 3pm.<br>
+              <b>Venue:</b> EXTC Department, Class C2.<br>
+              <b>Total Students:</b> 20 Students <br>
+             <b> Resource Person:</b> Mansi Agrawal, Prasad Deshmukh , Niharika Dagaonkar.<br>
+              </p>
+        </td>
+    </tr>
+    <tr>
+      <td>
+          <img src="e4.jpg" alt="Image 2">
+      </td>
+      <td>
+          <p><b>4.Title:</b> First Year Orientation<br>
+           <b> Date:</b> 25 August 2023<br>
+          <b> Time: </b>11 am to 5 pm <br>
+           <b>Venue:</b> EXTC Seminar Hall<br>
+           <b>Total Students:</b> 80  Students <br>
+           <b>Resource Person:</b> Dr. M. N. Tibdewal, Mrs. K. S. Vyas, Mr. S. P. Badar, Mr. S. G. Nemane<br>
+           </p>
+      </td>
+  </tr>
+  <tr>
+    <td>
+        <img src="e5.jpg" alt="Image 2">
+    </td>
+    <td>
+        <p><b>5. Title:</b> Aerobics Training<br>
+          <b>Date:</b> 23 January  2024<br>
+         <b>Time:</b> 4-8 pm<br>
+         <b>Venue:</b> Chinchili<br>
+         <b>Total Students:</b> 54  Students <br>
+         <b>Resource Person:</b> Bhumika Deshmukh<br>
+         </p>
+    </td>
+</tr>
+      <!-- Add more rows as needed -->
+  </tbody>
+</table>
+
+</div>
+
+
+
+
+
+
+
+
+
+  
+<!--Events in 2022-23-->
+<div>
+  <h2 id="Event_23" class="text-center  titiles pt-5 pb-3 "data-aos="fade-up"><u><strong><span class="iconify" data-icon="mdi:head-cog" style="color: navy;"></span>Events(Session 2022-23)</strong></u></h2> 
+    
+      </div>
+  <div>
+  
+  <table class="image-table">
+    <thead>
+        <tr>
+            <th>Electronics Students and Staff Association's Events</th>
+            <th>Session: 2022-23</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <img src="q1.jpg" alt="Image 1">
+            </td>
+            <td>
+                <p>
+                  <b>Event 1:</b>
+                 <b> “Workshop on Secret of Canva”</b>
+                 <b> Date:</b> 10th December 2023
+                 <b> Attendees:</b> 32
+                 <b> Venue:</b> DSP Lab EXTC department 
+                  <b>Event Description: </b>Mr Prathmesh Gattani and Miss Mrunal Patil explained about various aspects of Canva. The points covered were ,”What is canva”, “what are the inclusive features for editing”, “how to edit photos”, “how to add background text and music”, “how to add make business card, invitation card, posters ” etc. The workshop was very successful and excellent feedback was received by Team ESSA.
+                  
+                  
+                  
+                  </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="q2.jpg" alt="Image 2">
+            </td>
+            <td>
+                <p>
+                 <b> Event 2:</b>
+                  <b>Workshop on :</b> “Hello to Embedded System”
+                  <b>Date:</b> 7th and 8th April  2023
+                 <b> Attendees:</b> 42
+                  <b>Venue:</b> DSP Lab EXTC department
+                  <b>Event Description:</b> Miss Smruti Gangane introduced the basics of embedded systems. Mr Prathmesh Gattani took the hands on session on keil and proteus software. Mini project were also made by the attendees at the end of workshop. The workshop was very interactive and informative.   
+                  </p>
+            </td>
+        </tr>
+        <tr>
+          <td>
+              <img src="q3.jpg" alt="Image 2">
+          </td>
+          <td>
+              <p>
+                <b>Event 3:</b>
+               <b> “Battle of Electronics”</b>
+               <b> Date:</b> 7th and 8th April 2023
+                <b>Attendees:</b> 44
+                <b>Venue:</b> C2 Classroom, EXTC department
+               <b> Event Description:</b> The event consisted of three rounds: buzzer round, word wipe and circuit construction. In buzzer round students participated in groups of two and the task was to guess the correct names of images shown. In word wipe the teams had to correct the spellings of jumbled word shown. In round three, teams had to design and run the circuits from the electronic components given.
+                
+               
+                </p>
+          </td>
+      </tr>
+      
+        <!-- Add more rows as needed -->
+    </tbody>
+  </table>
+  
+  </div>
+
+
+
+
+
+
+
+
+
+
+<!--Events in 2021-22-->
+<div>
+  <h2 id="Event_22" class="text-center  titiles pt-5 pb-3 "data-aos="fade-up"><u><strong><span class="iconify" data-icon="mdi:head-cog" style="color: navy;"></span>Events(Session 2021-22)</strong></u></h2> 
+    
+      </div>
+  <div>
+  
+  <table class="image-table">
+    <thead>
+        <tr>
+            <th>Electronics Students and Staff Association's Events</th>
+            <th>Session: 2021-22</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <img src="c1.png" alt="Image 1">
+            </td>
+            <td>
+                <p>
+                 <b> 1.Title:</b> Webinar on placement awareness<br>
+                 <b> Date:</b> 2 October 2021<br>
+                  <b>Time: </b>1 pm to 3 pm<br>
+                  <b>Venue:</b> Online Platform : MS Teams<br>
+                  <b>Total Students:</b> 120 students<br>
+                 <b> Resource Person:</b> Mr.Mohit Vyas, Mr. Shreyas Pole, Mr. Manish Tinkhede and Ms. Harshada Babar<br>
+                  <b>Activity Outcome :</b> After Completion of this activity students will be able to learn resume writing and differentiate between types of interview process<br>
+                  </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="c2.jpg" alt="Image 2">
+            </td>
+            <td>
+                <p><b>2.Title:</b> Orientation Program For First Year<br>
+                  <b>Date:</b> 30 December 2021<br>
+                  <b>Time:</b> 11 am  to 5 pm <br>
+                  <b>Venue:</b> EXTC Seminar HAll<br>
+                  <b>Total Students:</b> 95 students
+                  <b>Resource Person:</b> Prof. D. L. Bhombe, Prof. A. N. Dolas, Prof. K. T. Kahar, Prof. V. K. Bhangadiya and Dr. P. R. wankhede<br>
+                  <b>Activity Outcome :</b> After Completion of this activity students will be able to differentiate between various applications of Electronics.<br>
+                  
+                  
+                  </p>
+            </td>
+        </tr>
+        <tr>
+          <td>
+              <img src="c3.jpg" alt="Image 2">
+          </td>
+          <td>
+              <p><b>3.Title:</b> Webinar on Job Avenues in Electronics and Telecommunication Engineering<br>
+                <b>Date:</b> 8 January 2022 <br>
+               <b>Time:</b> 9.30 am to 11.30 am<br>
+               <b>Venue:</b> EXTC Seminar HAll<br>
+               <b>Total Students:</b> 95 students <br>
+               <b>Resource Person:</b> Pramod Chopade, General Manager and Regional Lead- South, Reliance Jio, Mumbai<br>
+               <b>Activity Outcome :</b> After Completion of this activity students will be able to learn about job opportunities in Electronics sector and required Skill set.<br>
+               
+                </p>
+          </td>
+      </tr>
+      <tr>
+        <td>
+            <img src="c4.jpg" alt="Image 2">
+        </td>
+        <td>
+            <p>
+                        
+            <b>4.Title:</b> Workshop on Chasing Calsi<br>
+            <b>Date:</b> 9 January 2022<br>
+            <b>Time:</b> 11 am to 5 pm <br>
+           <b> Venue:</b> Old Auditorium<br>
+           <b> Total Students:</b> 180<br>
+            <b>Resource Person:</b> Dr. Pravin Wankhede<br>
+           <b> Activity Outcome : </b>After Completion of this activity students will be able to use calculator effectively.<br>
+
+
+              </p>
+        </td>
+    </tr>
+    <tr>
+      <td>
+          <img src="c5.jpg" alt="Image 2">
+      </td>
+      <td>
+          <p>
+            <b>5.Title:</b> “Electro-Metro” - Skill development Workshop on Basic Electronics and Mini project<br>
+             <b>Date:</b> 11/03/2022 to 13/03/2022 <br>
+           <b> Time:</b> 11 am to 6 pm (Day 1), 10 am to 5 pm (Day 2 and Day 3)<br>
+            <b>Venue:</b> EXTC Department <br>
+            <b>Total Students:</b> 44 groups (167 students)<br>
+            <b>Resource Person:</b> Mrs. K. S. Vyas, Mr. Sanjay Satal, Mr. Saleem Ahmed, Mr. Bhushan Hazare<br>
+            <b>Activity Outcome :</b> After Completion of this activity students will be able to design and develop small project<br>
+            
+           </p>
+      </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img src="c6.jpg" alt="Image 2">
+    </td>
+    <td>
+        <p>
+          <b>6.Title:</b> Event “Troll by Tronics”<br>
+           <b>Date:</b> 25-26 March 2022<br>
+          <b>Time:</b> 11 am to 5 pm <br>
+          <b>Venue:</b> C2 Class room, EXTC Department<br>
+          <b>Total Students:</b> 19 Teams/Individual<br>
+          <b>Conducting Committee :</b> ESSA <br>
+          <b>Activity Outcome :</b> After Completion of this activity students will be motivated to participate in events and competitions<br>
+          
+         </p>
+    </td>
+</tr>
+
+
+<tr>
+  <td>
+      <img src="c7.jpg" alt="Image 2">
+  </td>
+  <td>
+      <p>
+       <b> 7. Title:</b> Workshop on Multisim and PCB design<br>
+        <b>Date:</b> 25-26 March 2022<br>
+       <b>Time:</b> 4.30 pm to 6.30 pm (Day 1) and 2 pm to 4 pm (Day 2) <br>
+       <b>Venue:</b> DSP Lab, EXTC Department <br>
+       <b>Total Students:</b> 24 Students<br>
+       <b>Resource Person:</b> Lokesh Hiwarkar, Shwetatai Bhagat, Bhushan Hazare<br>
+      <b> Activity Outcome :</b> After Completion of this activity students will be able to simulate small projects.<br>
+       
+       </p>
+  </td>
+</tr>
+   
+       </p>
+  </td>
+</tr>
+        <!-- Add more rows as needed -->
+    </tbody>
+  </table>
+  
+  </div>
+
+
+
+
+  <!--Event of 2020-21 -->
+
+  <div>
+    <h2 id="Event_21" class="text-center  titiles pt-5 pb-3 "data-aos="fade-up"><u><strong><span class="iconify" data-icon="mdi:head-cog" style="color: navy;"></span>Events(Session 2020-21)</strong></u></h2> 
+      
+        </div>
+    <div>
+    
+    <table class="image-table">
+      <thead>
+          <tr>
+              <th>Electronics Students and Staff Association's Events</th>
+              <th>Session: 2020-21</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>
+                  <img src="r1.jpg" alt="Image 1">
+              </td>
+              <td>
+                  <p>
+                    <b>1.Title:</b> Three Days Workshop on “Recent Trends in Electronics and Telecommunication Industries” <br>
+                   <b> Date:</b> 21-23 January 2021. <br>
+                    <b>Time:</b> 11 am to 12 pm<br>
+                   <b> Venue:</b>  Microsoft Teams (Online)<br>
+                    Resource Person Mr. Umesh Pawar, Mr. Pramod Chopde, Mr. Sameer Chitre. <br>
+                  <b>  Activity Outcome :</b> After Completion of this activity students will be able to learn about recent trends in Electronics sector and required Skill set. <br>
+                    
+                    
+                    
+                    
+                    </p>
+              </td>
+          </tr>
+     
+          <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+    
+    </div>
+  
+
+
+
+     <!--Event of 2019-20 -->
+
+  <div>
+    <h2 id="Event_20" class="text-center  titiles pt-5 pb-3 "data-aos="fade-up"><u><strong><span class="iconify" data-icon="mdi:head-cog" style="color: navy;"></span>Events(Session 2019-20)</strong></u></h2> 
+      
+        </div>
+    <div>
+    
+    <table class="image-table">
+      <thead>
+          <tr>
+              <th>Electronics Students and Staff Association's Events</th>
+              <th>Session: 2019-20</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>
+                  <img src="w1.jpg" alt="Image 1">
+              </td>
+              <td>
+                  <p>
+                   <b> 1.Title:</b> Guest lecture on AI Applications<br>
+                   <b> Date: </b>11 July 2019<br>
+                   <b> Time:</b> 11 am to 12 pm<br>
+                  <b>  Venue:</b> C2 class room<br>
+                    <b>Total Students:</b> 59 students<br>
+                    <b>Resource Person:</b> Mr. Sanjay Mishra, Tech Mahindra, USA <br>
+                    <b>Activity Outcome :</b> After Completion of this activity students will be able to learn about various AI Applications. <br>
+                    
+                    
+                    </p>
+              </td>
+          </tr>
+
+
+          
+                  <tr>
+                    <td>
+                        <img src="r1.jpg" alt="Image 1">
+                    </td>
+                    <td>
+                        <p>
+                                                          
+                                  <b>2.Title:</b> Electro – Ethix workshop<br>
+                                  <b>Date:</b> 4 and 5 October 2019 <br>
+                                  <b>Time:</b> 11 am to 5 pm <br>
+                                 <b> Venue:</b> Old Auditorium<br>
+                                  <b>Total Students:</b> 69<br>
+                                 <b> Resource Person:</b> Ritanshu Khatke, Sherya Pole, Rushikesh Balapure, Mohit Vyas<br>
+                                 <b> Activity Outcome :</b> After Completion of this activity students will be able to simulate small projects.<br>
+
+                          
+                          </p>
+                    </td>
+                </tr>    
+                  
+                  </p>
+            </td>
+        </tr>
+
+
+
+
+        <tr>
+          <td>
+              <img src="w2.png" alt="Image 1">
+          </td>
+          <td>
+              <p>
+                                
+                <b>3. Title:</b> Roboignitors<br>
+                <b>Date:</b> 25 and 26  January 2019<br>
+               <b> Time:</b> 2 pm Onwards<br>
+                <b>Venue: </b>EXTC Department <br>
+                <b>Total Students:</b> 67 students <br>
+               <b> Resource Person:</b> ESSA chair <br>
+                <b>Activity Outcome :</b> After Completion of this activity students will be able to design small robotics circuits.<br>
+
+                </p>
+          </td>
+      </tr>
+
+          <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+    
+    </div> 
+
+
+
+
+
+
+    
+     <!--Event of 2019-20 -->
+
+  <div>
+    <h2 id="Event_19" class="text-center  titiles pt-5 pb-3 "data-aos="fade-up"><u><strong><span class="iconify" data-icon="mdi:head-cog" style="color: navy;"></span>Events(Session 2018-19)</strong></u></h2> 
+      
+        </div>
+    <div>
+    
+    <table class="image-table">
+      <thead>
+          <tr>
+              <th>Electronics Students and Staff Association's Events</th>
+              <th>Session: 2018-19</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>
+                  <img src="w1.jpg" alt="Image 1">
+              </td>
+              <td>
+                  <p>
+                    <b>1.Title:</b> Strong Handson workshop on Basic Electronics
+                    <b>Date:</b> 20 – 21 September 2018
+                    <b>Time:</b> 8.30 am onwards
+                    <b>Venue:</b> EXTC Department 
+                    <b>Total Students:</b> 119 students
+                    <b>Resource Person:</b> ESSA Chair  
+                    <b>Activity Outcome :</b> After Completion of this activity students will be able to design and simulate small electronics circuit
+                    
+                    
+                    
+                    </p>
+              </td>
+          </tr>
+
+
+          <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+    
+    </div> 
+
+
+
+
+
+
+
+<!--Team 23-24-->
+
+<div style="text-align: center;">
+  <h2 id="teamco" class="text-center titiles pt-5 pb-3" data-aos="fade-up">
+    <u><strong><span class="iconify" data-icon="mdi:head-cog" style="color: navy;"></span>Team Members(Session 24-25)</strong></u>
+  </h2>
+
+  <div>
+    <table class="image-table">
+      <thead>
+        <tr>
+          <th>ESSA's Core Team</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img src="24-25core.jpg" alt="Image 1" style="width:50%;height: auto;">
+          </td>
+        </tr>
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+  </div>
+</div>
+
+  
+
+
+<div style="text-align: center;">
+  <h2 id="teamex" class="text-center titiles pt-5 pb-3" data-aos="fade-up">
+    <u><strong><span class="iconify" data-icon="mdi:head-cog" style="color: navy;"></span>Team Members(Session 24-25)</strong></u>
+  </h2>
+
+  <div>
+    <table class="image-table">
+      <thead>
+        <tr>
+          <th>ESSA's Executive Team</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img src="24-25.jpg" alt="Image 1" style="width:50%;height: auto;">
+          </td>
+        </tr>
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<!--Team 22-23-->
+
+<div style="text-align: center;">
+  <h2 id="teamco" class="text-center titiles pt-5 pb-3" data-aos="fade-up">
+    <u><strong><span class="iconify" data-icon="mdi:head-cog" style="color: navy;"></span>Team Members(Session 22-23)</strong></u>
+  </h2>
+
+  <div>
+    <table class="image-table">
+      <thead>
+        <tr>
+          <th>ESSA's Core Team</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img src="22-23  .png" alt="Image 1" style="width:50%;height: auto;">
+          </td>
+        </tr>
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+  </div>
+</div>
+
+  
+
+
+<div style="text-align: center;">
+  <h2 id="teamex" class="text-center titiles pt-5 pb-3" data-aos="fade-up">
+    <u><strong><span class="iconify" data-icon="mdi:head-cog" style="color: navy;"></span>Team Members(Session 22-23)</strong></u>
+  </h2>
+
+  <div>
+    <table class="image-table">
+      <thead>
+        <tr>
+          <th>ESSA's Executive Team</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img src="22-23_ex.png" alt="Image 1" style="width:50%;height: auto;">
+          </td>
+        </tr>
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+
+
+
+  
+<!--Team 21-22-->
+
+<div style="text-align: center;">
+  <h2 id="teamcore" class="text-center titiles pt-5 pb-3" data-aos="fade-up">
+    <u><strong><span class="iconify" data-icon="mdi:head-cog" style="color: navy;"></span>Team Members(Session 21-22)</strong></u>
+  </h2>
+
+  <div>
+    <table class="image-table">
+      <thead>
+        <tr>
+          <th>ESSA's Core Team</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img src="21-22.png" alt="Image 1" style="width:50%;height: auto;">
+          </td>
+        </tr>
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+
+<!--Team 20-21-->
+
+<div style="text-align: center;">
+  <h2 id="team2021" class="text-center titiles pt-5 pb-3" data-aos="fade-up">
+    <u><strong><span class="iconify" data-icon="mdi:head-cog" style="color: navy;"></span>Team Members(Session 20-21)</strong></u>
+  </h2>
+
+  <div>
+    <table class="image-table">
+      <thead>
+        <tr>
+          <th>ESSA's Core Team</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img src="20-21.png" alt="Image 1" style="width:50%;height: auto;">
+          </td>
+        </tr>
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+  </div>
+</div>
+
+  
+
+<!--19-20 Team-->
+
+<div style="text-align: center;">
+  <h2 id="teamc" class="text-center titiles pt-5 pb-3" data-aos="fade-up">
+    <u><strong><span class="iconify" data-icon="mdi:head-cog" style="color: navy;"></span>Team Members(Session 19-20)</strong></u>
+  </h2>
+
+  <div>
+    <table class="image-table">
+      <thead>
+        <tr>
+          <th>ESSA's Core Team</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img src="19-20_team.png" alt="Image 1" style="width: 900px; height: 400px;">
+          </td>
+        </tr>
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<div style="text-align: center;">
+  <h2 id="teame" class="text-center titiles pt-5 pb-3" data-aos="fade-up">
+    <u><strong><span class="iconify" data-icon="mdi:head-cog" style="color: navy;"></span>Team Members(Session 19-20)</strong></u>
+  </h2>
+
+  <div>
+    <table class="image-table">
+      <thead>
+        <tr>
+          <th>ESSA's Executive Team</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img src="19-20_executive.png" alt="Image 1" style="width:50%;height: auto;">
+          </td>
+        </tr>
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+    <footer id="Contact" class="bg-dark  pt-5 pd-4 pb-5 footer" data-aos="fade-up">
+
+  <div class="container text-center text-md-left footer">
+
+    <div class="row text-center text-md-left footer">
+
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold  text-warning">ESSA</h5>
+        <p class="text-white footer">
+          This is the Students Committee of Department of <a href="http://www.ssgmce.ac.in/departments/ETC-engg/" class="text-info text-warning" style="text-decoration: none ";>
+            'Electronics and Telecommunication Engineering'</a>
+              of <a href="https://ssgmce.ac.in/" style="text-decoration: none;" class="text-info footer text-warning">'SSGMCE,Shegaon.'</a>      
+        </p>
+      </div>
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold text-warning">Work for</h6>
+        <p>
+          <a href="a" class="text-white footer" style="text-decoration: none;" ><span class="text-info text-warning"><b>E</b></span>ducation</a>      
+         </p>
+          <p>
+            <a href="a" class="text-white footer" style="text-decoration: none;" ><span class="text-info text-warning"><b>S</b></span>kill</a>      
+         </p>
+          <p>
+              <a href="a" class="text-white footer" style="text-decoration: none;" ><span class="text-info text-warning"><b>S</b></span>tep </a>     
+          </p>
+          <p>
+          <a href="a" class="text-white footer" style="text-decoration: none;" ><span class="text-info text-warning"><b>A</b></span>pplication</a>      
+         </p>
+      </div>
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold text-warning">Activities</h6>
+        <p>
+          <a href="a" class="text-white footer" style="text-decoration: none;" >Workshops</a>      
+         </p>
+          <p>
+            <a href="a" class="text-white footer" style="text-decoration: none;" >Alumni Meet</a>      
+         </p>
+          <p>
+              <a href="a" class="text-white footer" style="text-decoration: none;" >Expert lectures </a>     
+          </p>
+         <p>
+          <a href="a" class="text-white footer" style="text-decoration: none;" > Technical Events</a>      
+         </p>
+      </div>
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase  font-weight-bold text-warning">Contact</h6>
+      <p>
+      <a href="essa27ssgmce@gmail.com" class="text-info footer text-warning"> essa27ssgmce@gmail.com</a>
+      </p>
+     
+      <p>
+        <a href="https://www.facebook.com/ESSA-SSGMCEshegaon-102488205568162/" class="btn-floating btn-sm text-white footer" style="font-size: 23px;"><i class="bi bi-facebook  mx-1"></i></a>
+        <a href="https://instagram.com/essa_ssgmce_?utm_medium=copy_link" class="btn-floating btn-sm text-white footer" style="font-size: 23px;"><i class="bi bi-instagram  mx-1"></i></a>
+        <a href="https://www.linkedin.com/company/essa-ssgmce" class="btn-floating btn-sm text-white footer" style="font-size: 23px;">
+          <i class="bi bi-linkedin  mx-1 px-1"></i></a>  
+      </p>
+      </div>
+    </div>
+    <hr class="mb-2">
+
+    <div class="row align-items-center">
+        <div class="container text-white ">
+        <p class="copy text-warning" >&copy; Copyright Team_ESSA_2021-22</p>
+        <p class="copy text-warning footer" >Designed by Team_ESSA_2021-22</p>
+
+        <a href="#" class="bottom-0 end-0 p-5 pb-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>    
+  </div>
+</footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script> 
+   <script src="ESSA.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 250,
+      delay: 2,
+      duration: 2000,
+    }
+    );
+  </script>
+  </body>
+</html>
+
+    
+
